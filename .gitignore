@@ -204,3 +204,8 @@ cython_debug/
 
 .idea/*
 .conda/*
+
+_quarto_cache/
+_quarto/
+.Rproj.user/
+.Rproj.user/*

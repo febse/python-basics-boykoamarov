@@ -1,0 +1,88 @@
+---
+title: "Untitled"
+---
+
+# Setup {.unnumbered}
+
+In den Übungen werden wir die Programmiersprache Python verwenden, um
+die in der Vorlesung behandelten Themen zu erklären und an realen Daten
+zu üben. Die Übungen werden in Form von Jupyter Notebooks bereitgestellt,
+die Sie in Ihrer eigenen Umgebung ausführen können.
+
+Deswegen ist es notwending, zuerst Ihre Arbeitsumgebung einzurichten.
+
+## Git
+
+Die Übungen werden in einem Git-Repository auf GitHub bereitgestellt. Git ist ein Versionskontrollsystem, das die Änderungen an Dateien verfolgt und es ermöglicht, verschiedene Versionen von Dateien zu speichern. GitHub ist eine Plattform, die auf Git basiert und es ermöglicht, Git-Repositories zu hosten und zu teilen.
+
+Wir werden Git verwenden, um die Übungen herunterzuladen und um Ihre Lösungen hochzuladen.
+
+Installieren Sie Git von [https://git-scm.com/](https://git-scm.com/). Wählen Sie die Version, die zu Ihrem Betriebssystem passt und folgen Sie den Anweisungen.
+Lassen Sie die Standardeinstellungen unverändert, es sei denn, Sie wissen ganz genau, was Sie tun.
+
+## GitHub Account
+
+Sie brauchen ein GitHub.com Konto, um die an den Übungen teilzunehmen.
+
+- Erstellen Sie ein Konto auf [https://github.com/signup](https://github.com/signup).
+- Bei der Registrierung wählen Sie ein Passwort, das Sie nirgendwo anders verwenden. Am Ende des Semesters können Sie Ihr Passwort ändern.
+- Empfehlung: Aktivieren Sie die [Zwei-Faktor-Authentifizierung (2FA)](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication#configuring-two-factor-authentication-using-github-mobile) in den Einstellungen Ihres GitHub-Kontos.
+- Empfehlung: Beantragen Sie das GitHub Student Developer Pack, um kostenlosen Zugriff auf GitHub Pro zu erhalten. Weiterhin erhalten Sie kostenlosen Zugang zu GitHub Copilot, einem KI-gestützten Code-Completion-Tool.
+
+
+## Visual Studio Code
+
+Visual Studio Code (VSC) ist ein Open-Source-Code-Editor, der von Microsoft entwickelt wurde. Wir werden VSC verwenden, um die Jupyter-Notebooks zu öffnen und zu bearbeiten.
+
+Installieren Sie Visual Studio Code von [https://code.visualstudio.com/](https://code.visualstudio.com/). Wählen Sie die Version, die zu Ihrem Betriebssystem passt und folgen Sie den Anweisungen.
+
+## Kursrepository herunterladen
+
+Öffnen Sie VSC und drücken Sie `Ctrl+Shift+P`. Suchen Sie nach "Git: Clone" und drücken Sie Enter. Geben Sie die URL des Kursrepositories ein:
+
+[http://github.com/febse/econ2024-de](http://github.com/febse/econ2024-de)
+
+Wählen Sie einen Ordner auf Ihrem Computer, in dem Sie das Repository speichern möchten. VSC wird das Repository herunterladen und fragen, ob Sie es öffnen möchten. Klicken Sie auf "Open".
+
+Warten Sie einen Moment, bis VSC das Repository geöffnet hat. Sie sollten eine Ordnerstruktur sehen, die den Inhalt des Repositories darstellt.
+VSV wird Sie fragen, ob Sie die empfohlenen Erweiterungen installieren möchten. Klicken Sie auf "Install All".
+
+Am Ende sollten Sie die folgenden Erweiterungen installiert haben:
+
+- ms-python.autopep8
+- ms-python.python
+- ms-python.debugpy
+- ms-vscode-remote.remote-containers
+- ms-toolsai.jupyter
+- github.codespaces
+- github.copilot
+- streetsidesoftware.code-spell-checker
+- streetsidesoftware.code-spell-checker-german
+
+Drucken Sie `Ctrl+Shift+X`. Dieses wird die Erweiterungsansicht öffnen. Suchen Sie nach "Python" und installieren Sie die Erweiterung von Microsoft.
+Überprüfen Sie ob alle Erweitungen installiert sind. Falls nicht, kopieren Sie die Namen der fehlenden Erweiterungen und suchen Sie nach ihnen in der Erweiterungsansicht.
+
+
+## Python
+
+Python ist eine der meistbenuzten Programmiersprachen in der Welt. Es ist einfach zu lernen und hat eine große Community, die viele Bibliotheken und Frameworks entwickelt hat. In der Welt der Datenwissenschaft ist Python neben R eine bevorzugsten Programmiersprachen.
+
+### Codespaces (empholen)
+
+Um die Konfiguration zu vereinfachen, können Sie Codespaces benutzen.
+
+
+### Miniconda (optional)
+
+Um Python zu installieren, können Sie die Miniconda Distribution verwenden. Conda ist ein Paketmanager, der es ermöglicht, Python-Umgebungen zu verwalten. Eine Python-Umgebung ist eine isolierte Instanz von Python, die es ermöglicht, verschiedene Versionen von Python und verschiedenen Bibliotheken zu verwenden, ohne dass sie sich gegenseitig beeinflussen. Das ist vor allem dann nützlich, wenn Sie an verschiedenen Projekten arbeiten, die unterschiedliche Anforderungen an Python und Bibliotheken haben.
+
+
+- Laden Sie das Conda Installationspacket von [https://docs.conda.io/en/latest/miniconda.html](https://docs.conda.io/en/latest/miniconda.html) für Ihr Betriebssystem.
+- Starten Sie das Packet und folgen Sie den Anweisungen. Lassen Sie die Standardeinstellungen unverändert, es sei denn, was Sie tun.
+- Installieren Sie Conda in einem Ordner ohne Leerzeichen im Pfad, z.B. `C:\Miniconda3` oder `C:\Users\IhrBenutzername\Miniconda3`.
+
+- Nachdem Miniconda installiert ist, öffnen Sie VSC. Drücken Sie `Ctrl+Shift+P` und suchen Sie nach "Python: Create environment". Drucken Sie Enter.
+- Wählen Sie "Conda".
+- Wählen Sie die Python-3.11 Version.
+- Dieses wird einen Order namens `.conda` erstellen.
+- Falls Sie diese Schritte in dem Order des Kursrepositories gemacht haben, werden dann automatisch die notwendingen Bibliotheken installiert.
