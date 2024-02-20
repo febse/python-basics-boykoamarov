@@ -8,6 +8,9 @@ name: Quarto Publish
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash -l {0}
     permissions:
       contents: write
     steps:
@@ -19,14 +22,12 @@ jobs:
         with:
           activate-environment: econ2024
           environment-file: environment.yml
-        
+
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
-        shell: bash -el {0}
 
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
-        shell: bash -el {0}
         with:
           target: gh-pages        
         env:
