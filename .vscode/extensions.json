@@ -6,8 +6,6 @@
     "ms-vscode-remote.remote-containers",
     "ms-toolsai.jupyter",
     "github.codespaces",
-    "github.copilot",
-    "streetsidesoftware.code-spell-checker",
-    "streetsidesoftware.code-spell-checker-german"
+    "github.copilot"
   ]
 }
