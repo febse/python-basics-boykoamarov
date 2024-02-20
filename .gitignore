@@ -209,3 +209,6 @@ _quarto_cache/
 _quarto/
 .Rproj.user/
 .Rproj.user/*
+
+/.quarto/
+_book/

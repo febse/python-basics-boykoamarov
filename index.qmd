@@ -1,7 +1,3 @@
----
-title: "Untitled"
----
-
 # Setup {.unnumbered}
 
 In den Übungen werden wir die Programmiersprache Python verwenden, um

@@ -2,13 +2,17 @@ project:
   type: book
 
 book:
-  title: "Introduction to linear regression analysis"
+  title: "Grundlagen der Ökonometrie"
   author: "Boyko Amarov"
   date: "4/11/2023"
   chapters:
     - index.qmd
     - 00-01-Basics.ipynb
-    - 00-02-Basics-Uebung.ipynb
+    - 00-02-Basics-Ex.ipynb
+    - 00-03-Numpy.ipynb
+    - 00-04-Pandas.ipynb
+    - 00-05-Pandas-Ex.ipynb
+
     # - 00-Homework-Instructions.qmd
     # - 02-Statistics-Review.qmd
     # - 01-Introduction-to-R.qmd
