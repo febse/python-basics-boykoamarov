@@ -1,0 +1,13 @@
+name: econ2024
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - statsmodels
+  - seaborn
+prefix: /home/amarov/anaconda3/envs/econ2024
