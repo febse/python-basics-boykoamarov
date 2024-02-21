@@ -10,4 +10,5 @@ dependencies:
   - matplotlib
   - statsmodels
   - seaborn
+  - ipykernel
 prefix: /home/amarov/anaconda3/envs/econ2024
