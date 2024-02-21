@@ -18,7 +18,7 @@ Lassen Sie die Standardeinstellungen unverändert, es sei denn, Sie wissen ganz 
 
 ## GitHub Account
 
-Sie brauchen ein GitHub.com Konto, um die an den Übungen teilzunehmen.
+Für die Übungen brauchen Sie ein GitHub.com Konto:
 
 - Erstellen Sie ein Konto auf [https://github.com/signup](https://github.com/signup).
 - Bei der Registrierung wählen Sie ein Passwort, das Sie nirgendwo anders verwenden. Am Ende des Semesters können Sie Ihr Passwort ändern.
