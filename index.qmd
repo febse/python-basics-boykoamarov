@@ -5,7 +5,7 @@ die in der Vorlesung behandelten Themen zu erklären und an realen Daten
 zu üben. Die Übungen werden in Form von Jupyter Notebooks bereitgestellt,
 die Sie in Ihrer eigenen Umgebung ausführen können.
 
-Deswegen ist es notwending, zuerst eine Arbeitsumgebung einzurichten.
+Deswegen ist es notwendig, zuerst eine Arbeitsumgebung einzurichten.
 
 ## Git
 
@@ -53,28 +53,28 @@ Am Ende sollten Sie die folgenden Erweiterungen installiert haben:
 - github.codespaces
 - github.copilot
 
-Drucken Sie `Ctrl+Shift+X`. Dieses wird die Erweiterungsansicht öffnen. Überprüfen Sie ob alle Erweitungen installiert sind. Falls nicht, kopieren Sie die Kennzeichen (z.B. `ms-python.autopep8`) der fehlenden Erweiterungen von der Liste (oben), finden Sie die Erweiterungen in der Erweiterungsansicht und installieren Sie sie manuell.
+Drucken Sie `Ctrl+Shift+X`. Dieses wird die Erweiterungsansicht öffnen. Überprüfen Sie ob alle Erweiterungen installiert sind. Falls nicht, kopieren Sie die Kennzeichen (z.B. `ms-python.autopep8`) der fehlenden Erweiterungen von der Liste (oben), finden Sie die Erweiterungen in der Erweiterungsansicht und installieren Sie sie manuell.
 
 
 ## Python
 
-Python ist zurzeit eine der meistbenuzten Programmiersprachen in der Welt. Es ist einfach zu lernen und hat eine große Community, die viele Bibliotheken und Frameworks entwickelt hat. In der Welt der Datenwissenschaft ist Python neben R eine der bevorzugsten Programmiersprachen.
+Python ist zurzeit eine der meistbenutzten Programmiersprachen in der Welt. Es ist einfach zu lernen und hat eine große Community, die viele Bibliotheken und Frameworks entwickelt hat. In der Welt der Datenwissenschaft werden meistens Python und R benutzt. In den letzten Jahren stieg die Popularität von Python.
 
-### Codespaces (empholen)
+### Codespaces (empfohlen)
 
 Um die Konfiguration zu vereinfachen, können Sie Codespaces benutzen. In den ersten Übungen werden wir eine Anleitung zeigen, wie Sie Codespaces benutzen können.
 
 
 ### Miniconda
 
-Es git viele Möglichkeiten, wie Sie Python local auf Ihrem Rechner installieren können. Hier zeigen wir die Installation mit Miniconda. Conda ist ein Paketmanager, der es ermöglicht, Python-Umgebungen zu verwalten. Eine Python-Umgebung ist eine isolierte Instanz von Python, die es ermöglicht, verschiedene Versionen von Python und verschiedenen Bibliotheken zu verwenden, ohne dass sie sich gegenseitig beeinflussen. Das ist vor allem dann nützlich, wenn Sie an verschiedenen Projekten arbeiten, die unterschiedliche Anforderungen an Python und Bibliotheken haben.
+Es gibt viele Möglichkeiten, wie Sie Python local auf Ihrem Rechner installieren können. Hier zeigen wir die Installation mit Miniconda. Conda ist ein Paketmanager, der es ermöglicht, Python-Umgebungen zu verwalten. Eine Python-Umgebung ist eine isolierte Instanz von Python, die es ermöglicht, verschiedene Versionen von Python und verschiedenen Bibliotheken zu verwenden, ohne dass sie sich gegenseitig beeinflussen. Das ist vor allem dann nützlich, wenn Sie an verschiedenen Projekten arbeiten, die unterschiedliche Anforderungen an Python und Bibliotheken haben.
 
 
-- Laden Sie das Miniconda Installationspacket von [https://docs.conda.io/en/latest/miniconda.html](https://docs.conda.io/en/latest/miniconda.html) für Ihr Betriebssystem.
+- Laden Sie das Miniconda Installationspaket von [https://docs.conda.io/en/latest/miniconda.html](https://docs.conda.io/en/latest/miniconda.html) für Ihr Betriebssystem.
 - Starten Sie das Packet und folgen Sie den Anweisungen. Lassen Sie die Standardeinstellungen unverändert, es sei denn, Sie wissen was Sie tun.
-- Installieren Sie Conda in einem Ordner ohne Leerzeichen und nur mit ASCII Zeichen im Pfad (d.h. keine Kyryllischen Zeichen, keine Umlaute, etc.), z.B. `C:\Miniconda3` oder `C:\Users\boyko\Miniconda3`.
+- Installieren Sie Conda in einem Ordner ohne Leerzeichen und nur mit ASCII Zeichen im Pfad (d.h. keine Kyrillischen Zeichen, keine Umlaute, etc.), z.B. `C:\Miniconda3` oder `C:\Users\boyko\Miniconda3`.
 
-- Nachdem Miniconda installiert ist, öffnen Sie VSC. Drücken Sie `Ctrl+Shift+P` und starten Sie zu schreiben: "Python: Create environment". Wenn die Option in dem Dropdownmenü erscheint, wählen Sie sie und drucken Sie Enter.
+- Nachdem Miniconda installiert ist, öffnen Sie VSC. Drücken Sie `Ctrl+Shift+P` und starten Sie zu schreiben: "Python: Create environment". Wenn die Option in dem Dropdown-Menü erscheint, wählen Sie sie und drucken Sie Enter.
 - Wählen Sie "Conda".
 - Wählen Sie die Python-3.11 Version.
 - Dieses wird einen Order namens `.conda` erstellen.
@@ -82,7 +82,7 @@ Es git viele Möglichkeiten, wie Sie Python local auf Ihrem Rechner installieren
 
 ## Pycharm (optional)
 
-Statt VSC können Sie auch Pycharm oder Dataspell benutzen. Pycharm ist eine integrierte Entwicklungsumgebung (IDE) für Python, die von JetBrains entwickelt wurde. Pycharm ist eine der beliebtesten Python-IDEs und bietet viele Funktionen, die die Entwicklung von Python-Programmen erleichtern. Falls Sie mit Pycharm experimentieren möchten, bieten wir für die Übungen kostenfreie Lizenzen an.
+Statt VSC können Sie auch PyCharm oder DataSpell benutzen. PyCharm ist eine integrierte Entwicklungsumgebung (IDE) für Python, die von JetBrains entwickelt wurde. PyCharm ist eine der beliebtesten Python-IDEs und bietet viele Funktionen, die die Entwicklung von Python-Programmen erleichtern. Falls Sie mit PyCharm oder DataSpell experimentieren möchten, bieten wir für die Übungen kostenfreie Lizenzen an.
 
 - Registrieren Sie sich auf [https://account.jetbrains.com/signup](https://account.jetbrains.com/signup) mit Ihrer Universitäts-E-Mail-Adresse (muss auf `feb.uni-sofia.bg` oder `feba.uni-sofia.bg` enden).
 - Laden Sie Pycharm von [https://www.jetbrains.com/pycharm/download/](https://www.jetbrains.com/pycharm/download/) herunter und installieren Sie es.

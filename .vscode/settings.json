@@ -18,5 +18,26 @@
   "remote.autoForwardPortsFallback": 0,
   "PandocCiter.DefaultBibs": [   
     "references.bib"
+],
+"cSpell.language": "en,de",
+"cSpell.words": [
+  "Amarov",
+  "ANOVA",
+  "autopep",
+  "boyko",
+  "Boyko",
+  "codespaces",
+  "debugpy",
+  "github",
+  "hosten",
+  "ipynb",
+  "jupyter",
+  "katex",
+  "Kursrepositories",
+  "Kursrepository",
+  "Miniconda",
+  "Numpy",
+  "Regressionsmodell",
+  "toolsai"
 ]
 }
