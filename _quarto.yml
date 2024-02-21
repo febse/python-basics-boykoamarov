@@ -1,6 +1,7 @@
 project:
   type: book
 
+lang: de
 book:
   title: "Grundlagen der Ökonometrie"
   author: "Boyko Amarov"
