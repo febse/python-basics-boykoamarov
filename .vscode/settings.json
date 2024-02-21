@@ -15,5 +15,8 @@
   "unwantedRecommendations": [
     // Add extensions you don't want to recommend here
   ],
-  "remote.autoForwardPortsFallback": 0
+  "remote.autoForwardPortsFallback": 0,
+  "PandocCiter.DefaultBibs": [   
+    "references.bib"
+]
 }

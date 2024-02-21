@@ -20,6 +20,7 @@ book:
     # - 03-Simple-Linear-Model.qmd
     # - 04-Simple-ANOVA.qmd
     # - 05-Hypothesis-Testing-and-CI.qmd
+    - 00-Recommended-Literature.qmd
     - references.qmd
 
 bibliography: references.bib
