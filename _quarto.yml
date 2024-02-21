@@ -3,17 +3,18 @@ project:
 
 lang: de
 book:
-  title: "Grundlagen der Ökonometrie"
+  title: "Einführung in die Ökonometrie"
   author: "Boyko Amarov"
-  date: "4/11/2023"
+  date: "4/02/2024"
   chapters:
     - index.qmd
-    - 00-01-Basics.ipynb
-    - 00-02-Basics-Ex.ipynb
-    - 00-03-Numpy.ipynb
-    - 00-04-Pandas.ipynb
-    - 00-05-Pandas-Ex.ipynb
-
+    - part: 01-Python/index.qmd
+      chapters:
+        - 01-Python/01-01-Basics.ipynb
+        - 01-Python/01-02-Basics-Ex.ipynb
+        - 01-Python/01-03-Numpy.ipynb
+        - 01-Python/01-04-Pandas.ipynb
+        - 01-Python/01-05-Pandas-Ex.ipynb        
     # - 00-Homework-Instructions.qmd
     # - 02-Statistics-Review.qmd
     # - 01-Introduction-to-R.qmd
@@ -21,7 +22,7 @@ book:
     # - 03-Simple-Linear-Model.qmd
     # - 04-Simple-ANOVA.qmd
     # - 05-Hypothesis-Testing-and-CI.qmd
-    - 00-Recommended-Literature.qmd
+    - Literature.qmd
     - references.qmd
 
 bibliography: references.bib
