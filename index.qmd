@@ -36,7 +36,9 @@ Installieren Sie Visual Studio Code von [https://code.visualstudio.com/](https:/
 
 Öffnen Sie VSC und drücken Sie `Ctrl+Shift+P`. Suchen Sie nach "Git: Clone" und drücken Sie Enter. Geben Sie die URL des Kursrepositories ein:
 
-[http://github.com/febse/econ2024-de](http://github.com/febse/econ2024-de)
+```plaintext
+http://github.com/febse/econ2024-de.git
+```
 
 Wählen Sie einen Ordner auf Ihrem Computer, in dem Sie das Repository speichern möchten. VSC wird das Repository herunterladen und fragen, ob Sie es öffnen möchten. Klicken Sie auf "Open".
 
